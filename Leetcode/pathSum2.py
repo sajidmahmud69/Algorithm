@@ -16,9 +16,6 @@ def pathSum2(root, targetSum):
 
         return result
 
-    return dfs(root, targetSum)
-
-
 if __name__ == '__main__':
 
     arr = [5,4,8,11,None,13,4,7,2,None,None,5,1]
@@ -27,7 +24,3 @@ if __name__ == '__main__':
     targetSum = 1
     root = buildTree(arr, 0, len(arr))
     print(pathSum2(root, targetSum))
-        
-
-        
-        
